@@ -1,0 +1,61 @@
+.profile {
+  max-width: 880px;
+  height: 120px;
+  margin: auto;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.profile__avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50% 50%;
+  background-size: cover;
+  object-fit: cover;
+}
+.profile__info {
+  width: 415px;
+  height: 77px;
+  align-self: center;
+  position: relative;
+}
+
+.profile__name {
+  font-size: 42px;
+  width: 373px;
+  line-height: 48px;
+}
+.profile__description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.profile__edit-button {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  position: absolute;
+  top: 15px;
+  right: 0px;
+}
+.profile__edit-button:hover {
+  opacity: 60%;
+}
+.profile__edit-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.profile__add-button {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  margin-left: auto;
+  border: none;
+}
+
+.profile__add-button:hover {
+  opacity: 60%;
+}
