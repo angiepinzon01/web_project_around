@@ -15,82 +15,91 @@
       <header class="header">
         <img src="./images/Vector.png" alt="logo" class="header__logo" />
       </header>
-   
-    <section class="profile">
-      <img src="./images/avatar.png" alt="avatar" class="profile__avatar" />
-      <div class="profile__info">
-        <h1 class="profile__name">Jacques Cousteau</h1>
-        <p class="profile__description">Explorador</p>
-        <button type="button" class="profile__edit-button">
+      <main class="content">
+        <section class="profile">
+          <div class="profile__avatar">
+            <img
+              src="./images/Avatar.png"
+              alt="Avatar de Jacques Cousteau"
+              class="profile__avatar-image"
+            />
+          </div>
+          <div class="profile__info">
+            <div class="profile__title-wrapper">
+              <h2 class="profile__name">Jacques Cousteau</h2>
+              <button class="profile__edit-button" type="button">
+                <img
+                  src="images/editbutton.png"
+                  alt="Editar perfil"
+                  class="profile__edit-icon"
+                />
+              </button>
+            </div>
+            <p class="profile__about">Explorador</p>
+          </div>
+
+          <button class="profile__add-button" type="button">+</button>
+        </section>
+
+      <section class="cards">
+        <div class="cards__container">
           <img
-            src="./images/editbutton.png"
-            alt="edit button"
-            class="profile__edit-icon"
+            src="./images/ValledeYosemite.png"
+            alt="Yosemite Valley"
+            class="cards__image"
           />
-        </button>
-      </div>
-      <button type="button" class="profile__add-button">
-        <img
-          src="./images/Add Button.png"
-          alt="Add button"
-          class="profile__add-icon"
-        />
-      </button>
-    </section>
-    <section class="cards">
-      <div class="cards__container">
-        <img
-          src="./images/Valle de Yosemite.png"
-          alt="Yosemite Valley"
-          class="cards__image"
-        />
-        <p class="cards__title">Valle de Yosemite</p>
-        <span class="cards__like-button heart">♡</span>
-      </div>
-      <div class="cards__container">
-        <img
-          src="./images/Lago Louise.png"
-          alt="Lago Louise"
-          class="cards__image"
-        />
-        <p class="cards__title">Lago Louise</p>
-        <span class="cards__like-button heart">♡</span>
-      </div>
-      <div class="cards__container">
-        <img
-          src="./images/Montañas Calvas.png"
-          alt="Montañas Calvas"
-          class="cards__image"
-        />
-        <p class="cards__title">Montañas Calvas</p>
-        <span class="cards__like-button heart">♡</span>
-      </div>
-      <div class="cards__container">
-        <img src="./images/Latemar.png" alt="Card Image" class="cards__image" />
-        <p class="cards__title">Latemar</p>
-        <span class="cards__like-button heart">♡</span>
-      </div>
-      <div class="cards__container">
-        <img
-          src="./images/Vanois National.png"
-          alt="Vanois National Park"
-          class="cards__image"
-        />
-        <p class="cards__title">Vanois National Park</p>
-        <span class="cards__like-button heart">♡</span>
-      </div>
-      <div class="cards__container">
-        <img
-          src="./images/Lago di Braies.png"
-          alt="Lago di Braies"
-          class="cards__image"
-        />
-        <p class="cards__title">Lago di Braies</p>
-        <span class="cards__like-button heart">♡</span>
-      </div>
-    </section>
-    <footer class="footer">
-      <p class="footer__text">&copy; 2025 Around The U.S.</p>
+          <p class="cards__title">Valle de Yosemite</p>
+          <span class="cards__like-button heart">♡</span>
+        </div>
+        <div class="cards__container">
+          <img
+            src="./images/LagoLouise.png"
+            alt="Lago Louise"
+            class="cards__image"
+          />
+          <p class="cards__title">Lago Louise</p>
+          <span class="cards__like-button heart">♡</span>
+        </div>
+        <div class="cards__container">
+          <img
+            src="./images/MontañasCalvas.png"
+            alt="Montañas Calvas"
+            class="cards__image"
+          />
+          <p class="cards__title">Montañas Calvas</p>
+          <span class="cards__like-button heart">♡</span>
+        </div>
+        <div class="cards__container">
+          <img
+            src="./images/Latemar.png"
+            alt="Card Image"
+            class="cards__image"
+          />
+          <p class="cards__title">Latemar</p>
+          <span class="cards__like-button heart">♡</span>
+        </div>
+        <div class="cards__container">
+          <img
+            src="./images/VanoisNational.png"
+            alt="Vanois National Park"
+            class="cards__image"
+          />
+          <p class="cards__title">Vanois National Park</p>
+          <span class="cards__like-button heart">♡</span>
+        </div>
+        <div class="cards__container">
+          <img
+            src="./images/LagodiBraies.png"
+            alt="Lago di Braies"
+            class="cards__image"
+          />
+          <p class="cards__title">Lago di Braies</p>
+          <span class="cards__like-button heart">♡</span>
+        </div>
+      </section>
+      <footer class="footer">
+        <p class="footer__text">&copy; 2025 Around The U.S.</p>
+      </footer>
       <div class="popup">
         <button type="button" class="popup__button popup__button_close">
           &#x1F7A9;
@@ -116,7 +125,6 @@
           </fieldset>
         </form>
       </div>
-      
     </div>
 
     <script src="scripts/script.js"></script>
