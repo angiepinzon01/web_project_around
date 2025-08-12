@@ -20,7 +20,7 @@ Consiste en una galería de lugares icónicos con perfil de usuario y funcionali
 │ └── profile.css
 ├── images/
 ├── scripts/
-│ └── script.js
+│ └── index.js
 └── favicon.ico
 Características
 
