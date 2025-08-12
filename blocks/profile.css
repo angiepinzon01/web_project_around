@@ -23,7 +23,7 @@
 .profile__title-wrapper {
   display: flex;
   align-items: center;
-  gap: 18px; /* Espacio entre nombre y botón */
+  gap: 18px;
 }
 
 .profile__name {
@@ -59,7 +59,7 @@
   color: white;
   background: transparent;
   font-size: 32px;
-  width: 150px;
+  min-width: 150px;
   height: 50px;
   border-radius: 4px;
   cursor: pointer;
@@ -99,8 +99,4 @@
   .profile__about {
     font-size: 14px;
   }
-}
-.profile__add-button {
-  margin: 0;
-  width: 285px;
 }
