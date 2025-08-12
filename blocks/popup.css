@@ -69,3 +69,31 @@
   padding: 10px;
   margin-bottom: 40px;
 }
+@media screen and (min-width: 320px) and (max-width: 584px) {
+ 
+.popup__container {
+  width: 290px;
+  margin: 15px 0 auto;
+  top: 200px;
+  position: absolute;
+}
+.popup__subtitle {
+  width: 240px;
+  font-size: 18px;
+  margin: 20px;
+  font-weight: 900;
+}
+.popup__content {
+  width: 240px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.popup__input {
+  width: 240px;
+}
+.popup__button_close {
+  position: absolute;
+  top: 150px;
+
+  right: 590px;
+}
